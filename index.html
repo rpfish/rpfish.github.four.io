@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+div#container{width:1200px}
+div#header {background-color:black; color:white;}
+div#left {height:500px; width:100px; float:left; text-align: center; vertical-align: middle; line-height:500px}
+div#newsphoto {height:500px; width:1000px; float:left;}
+div#right {height:500px; width:100px; float:left; text-align: center; vertical-align: middle; line-height:500px}
+div#footer {background-color:#99bbbb; clear:both; text-align: center;}
+h1 {margin-bottom:0;}
+h2 {margin-bottom:0; font-size:14px;}
+ul {margin:0;}
+li {list-style:none;}
+
+</style>
+<script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery
+/jquery-1.4.min.js"></script>
+<script type="text/javascript" src="photo.js"></script>
+</head>
+
+<body onload="javascript:showphoto();">
+
+<div id="container">
+
+<div id="header">
+<h1>新闻图片</h1>
+</div>
+
+<div id="left">
+<button onclick="PreviousPage()" >上一张</button>
+</div>
+
+<div id="newsphoto">
+
+</div>
+
+<div id="right">
+<button onclick="NextPage()" >下一张</button>
+</div>
+
+
+</div>
+
+</body>
+
+</html>
